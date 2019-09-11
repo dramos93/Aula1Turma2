@@ -18,6 +18,11 @@ namespace ConsoleApp1
             bool    testComp   =   "123"   ==   "123";
             Boolean testeComp   =   "123"   ==   "123";
 
+            bool? testeBoolNull;
+
+            int numeroInteiro = 999;
+            long numeroInteiroLongo = 8597215;
+
             var testeFora = string.Empty;
             testeFora = "palavra";
             
