@@ -17,8 +17,9 @@ namespace Cálculo_de_Área_de_um_Quadrado
             lado1 = int.Parse(Console.ReadLine());
             Console.Write("Informe o lado 2: ");
             lado2 = int.Parse(Console.ReadLine());
-            Console.ReadKey();
+            //Console.ReadKey();
             resultado = lado1 * lado2;
+            Console.WriteLine("" + resultado);
             Console.ReadKey();
         }
     }
