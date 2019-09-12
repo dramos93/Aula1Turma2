@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilizandoFor", "Utilizando
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utilizandoFomr2", "utilizandoFomr2\utilizandoFomr2.csproj", "{085CD3A6-9BBE-4CC1-A5A2-B069EAE02FDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercícioForWhile", "ExercícioForWhile\ExercícioForWhile.csproj", "{379682F6-25D0-4ED6-A8D6-8183EA60F0BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{085CD3A6-9BBE-4CC1-A5A2-B069EAE02FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{085CD3A6-9BBE-4CC1-A5A2-B069EAE02FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{085CD3A6-9BBE-4CC1-A5A2-B069EAE02FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379682F6-25D0-4ED6-A8D6-8183EA60F0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379682F6-25D0-4ED6-A8D6-8183EA60F0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379682F6-25D0-4ED6-A8D6-8183EA60F0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379682F6-25D0-4ED6-A8D6-8183EA60F0BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

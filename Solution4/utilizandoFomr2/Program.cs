@@ -14,7 +14,7 @@ namespace utilizandoFomr2
             var countFind = 0;
             Console.WriteLine("Digite um texto: ");
             nome = Console.ReadLine();
-            Console.WriteLine("Encontre a palavra até 3 caracteres: ");
+            Console.WriteLine("Encontre a palavra de 3 caracteres: ");
             var palavra = Console.ReadLine();
 
             for (int i = 0; i < (nome.Length - 2); i++)
