@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodeBeber", "PodeBeber\Pode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cópia do Professor", "Cópia do Professor\Cópia do Professor.csproj", "{0BD591B9-5E8C-43D5-9C5E-C43B09123FBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeNowShow", "TimeNowShow\TimeNowShow.csproj", "{7BFF503B-F742-4F4A-A581-19DAF4F6EFC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0BD591B9-5E8C-43D5-9C5E-C43B09123FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BD591B9-5E8C-43D5-9C5E-C43B09123FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD591B9-5E8C-43D5-9C5E-C43B09123FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFF503B-F742-4F4A-A581-19DAF4F6EFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFF503B-F742-4F4A-A581-19DAF4F6EFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFF503B-F742-4F4A-A581-19DAF4F6EFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFF503B-F742-4F4A-A581-19DAF4F6EFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
