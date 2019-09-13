@@ -15,7 +15,9 @@ namespace Atividade5
             Console.WriteLine("Digite alguma coisa: ");
             var texto = Console.ReadLine();
             int quantidade = texto.Length;
-            char primeira, ultima;
+
+            char primeira = ' ',ultima = ' ';
+
             int b=0; 
             for (int i = 0; i < quantidade; i++)
             {
