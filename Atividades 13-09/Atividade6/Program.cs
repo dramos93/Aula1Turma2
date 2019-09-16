@@ -13,11 +13,8 @@ namespace Atividade6
             /*6 - Criar um console app que quando informado o texto
              * contendo banana ele troque esta informação por laranja.*/
             Console.WriteLine("Digite um texto que substituiremos banana por laranja");
-            var texto = Console.ReadLine();
-            var quantidade = texto.Length;
-            var nome = String.Empty;
-            string novoTexto = texto.Replace("banana", "laranja");
-            Console.WriteLine($"\n\n{novoTexto}");
+            var texto = Console.ReadLine().Replace("banana", "laranja");
+            Console.WriteLine($"\n\n{texto}");
             Console.ReadKey();
         }
     }
