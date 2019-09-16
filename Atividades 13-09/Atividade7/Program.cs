@@ -14,21 +14,36 @@ namespace Atividade7
              * dentro de um texto informado pelo usuário.*/
             Console.WriteLine("Digite um texto aí: ");
             var texto = Console.ReadLine();
+            int letraA = 0, letraE = 0, letraI = 0, letraO = 0, letraU = 0;
 
             String[] arrayLinear = new string[5] { "a", "e", "i","o","u"};//new= Nova estância, para ser acessada quando quiser
 
             List<string> listaLinear = new List<string>
             {
-                "Felipe",
-                "Giomar",
-                    "Euricledson"
+                "a",
+                "b",
+                    "c"
             };
             for (int i = 0; i < texto.Length; i++)
             {
-                if (texto[i].ToString()== arrayLinear[0])
+                switch (texto[i])
                 {
-                    Console.WriteLine($"\n tem");
-                    Console.ReadKey();
+                    case ('a')  : letraA++;
+                        break;
+                    case ('e'):
+                        letraE++;
+                        break;
+                    case ('i'):
+                        letraI++;
+                        break;
+                    case ('o'):
+                        letraO++;
+                        break;
+                    case ('u'):
+                        letraU++;
+                        break;
+                    default : 
+                        break;
                 }
             }
 
