@@ -15,20 +15,11 @@ namespace Atividade5
             Console.WriteLine("Digite alguma coisa: ");
             var texto = Console.ReadLine();
             int quantidade = texto.Length;
-
-            char primeira = ' ',ultima = ' ';
-
-            int b=0; 
-            for (int i = 0; i < quantidade; i++)
-            {
-                if (i==0)//se for a primeira letra, salva na primeira
-                {
-                    primeira = texto[i];
-                }
-                b = i;
-            }
-            ultima = texto[b];
-            Console.WriteLine($"A primeira letra é '{primeira}' e a segunda é: '{ultima}'");
+            // para criar várias variáveis ao mesmo tempo tem que separa com vírgula e tem que por algum valor pra elas
+            // char tem que ser entre apóstrofos e deve conter algum valor. ex.: espaço
+            char primeira = texto[0];
+            char ultima = texto[quantidade-1];
+            Console.WriteLine($"A primeira letra é '{primeira}' e a última é: '{ultima}'");
             Console.ReadKey();
         }
     }

@@ -15,15 +15,15 @@ namespace Atividade2ComList
  * mostre uma mensagem de boas vindas com o nome do usuário.*/
             Console.WriteLine("Digite seu nome completo: ");
             string nomeCompleto = Console.ReadLine();
-            var contentToFind = nomeCompleto;
+            //var contentToFind = nomeCompleto; não hé necessidade de usar essa linha.
 
-            var nome = string.Empty; // Aqui eu criei 
+            var nome = string.Empty; // Aqui eu criei uma variável vazia.
                         
             //string[] vetor = new string[5]; Criação de Array/Vetor
             //
             for (int i = 0; nomeCompleto[i].ToString() != " "; i++)
             {
-                nome += contentToFind[i].ToString();
+                nome += nomeCompleto[i].ToString();// o segredo para adicionar foi o +=
             }
 
             Console.WriteLine("");
