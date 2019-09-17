@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dia07_02_MetodosPublicos", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia07_03_ConversorMonetário", "Dia07_03_ConversorMonetário\Dia07_03_ConversorMonetário.csproj", "{BD0F8450-E61B-4261-9713-8C6EDE28C728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia07_Crazy_Project", "Dia07_Crazy_Project\Dia07_Crazy_Project.csproj", "{992E4CEA-A896-4E45-BB8D-B197AE54BB11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BD0F8450-E61B-4261-9713-8C6EDE28C728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD0F8450-E61B-4261-9713-8C6EDE28C728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD0F8450-E61B-4261-9713-8C6EDE28C728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992E4CEA-A896-4E45-BB8D-B197AE54BB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992E4CEA-A896-4E45-BB8D-B197AE54BB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992E4CEA-A896-4E45-BB8D-B197AE54BB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992E4CEA-A896-4E45-BB8D-B197AE54BB11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
