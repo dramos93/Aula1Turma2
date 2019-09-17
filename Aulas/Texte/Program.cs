@@ -10,12 +10,23 @@ namespace Texte
     {
         static void Main(string[] args)
         {
-            string phrase = "The quick brown fox jumps over the lazy dog.";
-            //string[] words = phrase.Split(' ');
-            foreach (var word in phrase)
+            var text = @"Meu nome é Felipe Junior e minha mãe escolheu colocar 
+			Junior em meu nome porque achava legal.";
+            var countFind = 0;
+            Console.WriteLine("Encontre a palavra de até 3 caracteres:");
+            var palavra = Console.ReadLine();
+
+            for (int i = 0; i < text.Length-2; i++)
             {
-                System.Console.WriteLine($"<{word}>");
+                var comparar = text[i].ToString() +
+                               text[i + 1].ToString() +
+                               text[i + 2].ToString();
+
+                if (palavra == comparar) countFind++;
             }
+            Console.WriteLine($"Quantidade total de {palavra} {countFind}");
+            Console.ReadKey();
         }
     }
+
 }
