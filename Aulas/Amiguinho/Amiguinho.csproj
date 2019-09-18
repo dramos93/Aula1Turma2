@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{992E4CEA-A896-4E45-BB8D-B197AE54BB11}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Dia07_Crazy_Project</RootNamespace>
-    <AssemblyName>Dia07_Crazy_Project</AssemblyName>
+    <ProjectGuid>{73B5053D-0C11-4A86-B2B5-EF8A803E0B6A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Amiguinho</RootNamespace>
+    <AssemblyName>Amiguinho</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,10 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BuscandoInfo">
+      <HintPath>\\svprwy001\alunos\hbsis\PastaDlls\Silvana\BuscandoInfo.dll</HintPath>
+    </Reference>
     <Reference Include="MinhaBiBlioteca">
       <HintPath>\\svprwy001\alunos\hbsis\PastaDlls\DllsFunfando\MinhaBiBlioteca.dll</HintPath>
     </Reference>
@@ -49,17 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chamando_Projeto.cs" />
-    <Compile Include="Dia08_MinhaBiblioteca.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestandoAmiginho.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Analyzer Include="\\svprwy001\alunos\hbsis\PastaDlls\BuscandoInfo.dll" />
-    <Analyzer Include="\\svprwy001\alunos\hbsis\PastaDlls\DllsFunfando\MinhaBiBlioteca.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
