@@ -10,23 +10,14 @@ namespace Texte
     {
         static void Main(string[] args)
         {
-            var text = @"Meu nome é Felipe Junior e minha mãe escolheu colocar 
-			Junior em meu nome porque achava legal.";
-            var countFind = 0;
-            Console.WriteLine("Encontre a palavra de até 3 caracteres:");
-            var palavra = Console.ReadLine();
-
-            for (int i = 0; i < text.Length-2; i++)
-            {
-                var comparar = text[i].ToString() +
-                               text[i + 1].ToString() +
-                               text[i + 2].ToString();
-
-                if (palavra == comparar) countFind++;
-            }
-            Console.WriteLine($"Quantidade total de {palavra} {countFind}");
+            Console.WriteLine("--- Cálculo de Área de um Quadrado ---");
+            Console.WriteLine("--- Cálculo de Área de um Quadrado ---");
+            Console.WriteLine("Digite o valor de um do lado: ");
+            var lado = int.Parse(Console.ReadLine());
+            lado = lado * lado;
+            Console.WriteLine("\nO valor da área do quadrado é de : {lado} metros");
             Console.ReadKey();
+            Console.Clear();
         }
     }
-
 }
