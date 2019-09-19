@@ -11,7 +11,7 @@ namespace Amiguinho
     {
         static void Main(string[] args)
         {
-            teste();
+            //teste();
             Menu();
 
         }

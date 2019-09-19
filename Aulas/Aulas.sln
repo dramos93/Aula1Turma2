@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amiguinho", "Amiguinho\Amiguinho.csproj", "{73B5053D-0C11-4A86-B2B5-EF8A803E0B6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia09_Ex1", "Dia09_Ex1\Dia09_Ex1.csproj", "{E66D806F-E983-48F5-9DEA-D438EA47CD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia09_Ex2", "Dia09_Ex2\Dia09_Ex2.csproj", "{C644E94B-CEB0-4676-8994-8478308AEBE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{73B5053D-0C11-4A86-B2B5-EF8A803E0B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73B5053D-0C11-4A86-B2B5-EF8A803E0B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73B5053D-0C11-4A86-B2B5-EF8A803E0B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66D806F-E983-48F5-9DEA-D438EA47CD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66D806F-E983-48F5-9DEA-D438EA47CD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66D806F-E983-48F5-9DEA-D438EA47CD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66D806F-E983-48F5-9DEA-D438EA47CD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C644E94B-CEB0-4676-8994-8478308AEBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C644E94B-CEB0-4676-8994-8478308AEBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C644E94B-CEB0-4676-8994-8478308AEBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C644E94B-CEB0-4676-8994-8478308AEBE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
