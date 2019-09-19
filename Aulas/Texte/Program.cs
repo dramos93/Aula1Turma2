@@ -10,14 +10,8 @@ namespace Texte
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("--- Cálculo de Área de um Quadrado ---");
-            Console.WriteLine("--- Cálculo de Área de um Quadrado ---");
-            Console.WriteLine("Digite o valor de um do lado: ");
-            var lado = int.Parse(Console.ReadLine());
-            lado = lado * lado;
-            Console.WriteLine("\nO valor da área do quadrado é de : {lado} metros");
-            Console.ReadKey();
-            Console.Clear();
+            int numero = 0;
+            int.TryParse(Console.WriteLine("123",out numero));
         }
     }
 }

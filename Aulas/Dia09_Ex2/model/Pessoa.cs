@@ -9,9 +9,9 @@ namespace Dia09_Ex2.model
     public class Pessoa
     {
         public string nome { get; set; }
-        int Idade { get; set; }
-        char Sexo { get; set; }
-        double Altura { get; set; }
+        public int Idade { get; set; }
+        public char Sexo { get; set; }
+        public double Altura { get; set; }
 
 
     }
