@@ -8,10 +8,12 @@ namespace Texte
 {
     class Program
     {
-        static void Main(string[] args)
+
+        static void Main()
         {
-            int numero = 0;
-            int.TryParse(Console.WriteLine("123",out numero));
+            Console. 
+            Console.WriteLine("Digite uma Letra:");
+            char nome = char.Parse(Console.ReadLine());
         }
     }
 }
