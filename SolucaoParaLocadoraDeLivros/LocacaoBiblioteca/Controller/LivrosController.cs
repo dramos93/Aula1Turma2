@@ -21,6 +21,7 @@ namespace LocacaoBiblioteca.Controller
                 Nome = "Os Barcos de Papel"
             });
         }
+
         public List<Livro> Livros { get; set; }
     }
 }
