@@ -10,6 +10,9 @@ namespace InterfaceBiblioteca
 {
     class Program
     {
+        //Criação das memórias carregadas
+        static UsuarioController usuarios = new UsuarioController();//está aqui para ser acessada de qualquer método.
+        static LivrosController livros = new LivrosController();//está aqui para ser acessada de qualquer método.
         static void Main(string[] args)
         {
             Console.WriteLine("SISTEMA DE LOCAÇÃO DE LIVRO 1.0");
@@ -20,12 +23,16 @@ namespace InterfaceBiblioteca
             Console.ReadKey();
 
         }
-
+        /// <summary>
+        /// Aqui mostra o menu do sistema
+        /// </summary>
         private static void MostraMenuSistema()
         {
             Console.Clear();
             Console.WriteLine("SISTEMA DE LOCAÇÂO DE LIVRO 1.0");
             Console.WriteLine("Menu Sistema");
+            Console.WriteLine("4 - Fazer LogOff");
+            Console.WriteLine("3 - Cadastrar Livros");
             Console.WriteLine("2 - Listar Livros");
             Console.WriteLine("1 - Listar Usuário");
             Console.WriteLine("0 - Sair");
@@ -43,13 +50,19 @@ namespace InterfaceBiblioteca
                 case   "0" : ;
                     break;
                 case   "1" :
+                    MostrarLogin();
                     Console.ReadKey();
                     MostraMenuSistema();
                     break;
-                case   "2" :
+                case "2":
                     MostrarLivro();
                     Console.ReadKey();
-                    MostraMenuSistema(); 
+                    MostraMenuSistema();
+                    break;
+                case "4":
+                    while (!RealizaLoginSistema())//Retorna Verdadeiro ou falso
+                    Console.WriteLine("Login e Senha Inválidos");
+                    MostraMenuSistema();
                     break;
 
                 default:
@@ -60,16 +73,22 @@ namespace InterfaceBiblioteca
             }
         }
         /// <summary>
+        /// Método para mostrar a lista de usuários do sistema
+        /// </summary>
+        private static void MostrarLogin()
+        {
+            usuarios.Usuarios.ForEach(i => Console.WriteLine(i.Login));
+            Console.ReadKey();
+        }
+
+        /// <summary>
         /// Apresenta o livro que foi colocado dentro da biblioteca Livro
         /// </summary>
         private static void MostrarLivro()
         {
-            Livro livro = new Livro()
-            {
-                Nome = "Meu livro - XXX"
-            };
 
-            Console.WriteLine($"Meu livro é {livro.Nome}");
+            livros.Livros.ForEach(i => Console.WriteLine(i.Nome));
+            Console.ReadKey();
         }
 
         /// <summary>
