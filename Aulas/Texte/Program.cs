@@ -11,8 +11,8 @@ namespace Texte
 
         static void Main()
         {
-            Console. 
-            Console.WriteLine("Digite uma Letra:");
+            Console.Out.WriteLine("\n"); 
+            Console.out.WriteLine("Digite uma Letra:");
             char nome = char.Parse(Console.ReadLine());
         }
     }

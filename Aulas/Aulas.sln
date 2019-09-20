@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia09_Ex1", "Dia09_Ex1\Dia0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia09_Ex2", "Dia09_Ex2\Dia09_Ex2.csproj", "{C644E94B-CEB0-4676-8994-8478308AEBE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locacao Biblioteca", "Locacao Biblioteca\Locacao Biblioteca.csproj", "{B711AB31-262D-4ED2-8B71-46AE7BEEB559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{C644E94B-CEB0-4676-8994-8478308AEBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C644E94B-CEB0-4676-8994-8478308AEBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C644E94B-CEB0-4676-8994-8478308AEBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B711AB31-262D-4ED2-8B71-46AE7BEEB559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B711AB31-262D-4ED2-8B71-46AE7BEEB559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B711AB31-262D-4ED2-8B71-46AE7BEEB559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B711AB31-262D-4ED2-8B71-46AE7BEEB559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
