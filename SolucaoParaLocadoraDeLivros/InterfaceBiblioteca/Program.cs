@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using LocacaoBiblioteca.Controller;
 using LocacaoBiblioteca.Model;
 
+
 namespace InterfaceBiblioteca
 {
     class Program
@@ -31,6 +32,8 @@ namespace InterfaceBiblioteca
             Console.Clear();
             Console.WriteLine("SISTEMA DE LOCAÇÂO DE LIVRO 1.0");
             Console.WriteLine("Menu Sistema");
+            Console.WriteLine("8 - Apresentar Livros Removidos");
+            Console.WriteLine("7 - Remover Livros");
             Console.WriteLine("6 - Remover Usuário");
             Console.WriteLine("5 - Cadastrar Usuário");
             Console.WriteLine("4 - Fazer LogOff");
@@ -49,36 +52,45 @@ namespace InterfaceBiblioteca
             Console.Clear();
             switch (v)
             {
-                case   "0" : ;
+                case   "0": //0 - Sair
+                    ; 
                     break;
-                case   "1" :
+                case   "1": //1 - Listar Usuário
                     MostrarLogin();
                     Console.ReadKey();
                     MostraMenuSistema();
                     break;
-                case "2":
+                case "2": //2 - Listar Livros
                     MostrarLivro();
                     Console.ReadKey();
                     MostraMenuSistema();
                     break;
-                case "3":
+                case "3": //3 - Cadastrar Livros
                     AdicionaLivro();
                     MostraMenuSistema();
                     break;
-                case "4":
+                case "4": //4 - Fazer LogOff
                     while (!RealizaLoginSistema())//Retorna Verdadeiro ou falso
                     Console.WriteLine("Login e Senha Inválidos");
                     MostraMenuSistema();
                     break;
-                case "5":
+                case "5": //5 - Cadastrar Usuário
                     AdicionaUsuario();
                     MostraMenuSistema();
                     break;
-                case "6":
+                case "6": //6 - Remover Usuário
                     RemoverUsuarioPeloID();
                     MostraMenuSistema();
                     break;
-
+                case "7": //7 - Remover Livros
+                    RemoverLivropeloID();
+                    MostraMenuSistema();
+                    break;
+                case "8": //8 - Apresentar Livros Removidos
+                    MostrarLivroInativo();
+                    Console.ReadKey();
+                    MostraMenuSistema();
+                    break;
                 default:
                     Console.WriteLine("\nVocê digitou uma opção inválida, clique para sair e digitar novamente!");
                     Console.ReadKey();
@@ -89,16 +101,26 @@ namespace InterfaceBiblioteca
 
         private static void RemoverUsuarioPeloID()
         {
-            Console.WriteLine("Remver o usuário pelo ID no sistema: ");
+            Console.WriteLine("Remover o usuário pelo ID no sistema: \nt*******************************");
             MostrarLogin();
-            Console.WriteLine("Informe o ID para desativar do Sistema: ");
+            Console.WriteLine("*******************************\nInforme o ID para desativar do Sistema: ");
             int usuarioID = int.Parse(Console.ReadLine());
+            
             usuariosController.RemoverUsuarioPorID(usuarioID);
-
             Console.WriteLine("Usuário Removido com sucesso");
             Console.ReadKey();
-
         }
+        private static void RemoverLivropeloID()
+        {
+            Console.WriteLine("Remover o livro pelo ID no sistema: \n*******************************");
+            MostrarLivro();
+            Console.WriteLine("*******************************\nInforme o ID para desativar o livro do Sistema: ");
+            int livroID = int.Parse(Console.ReadLine());
+            livrosController.RemoverLivroPorID(livroID);
+            Console.WriteLine("Livro Removido com sucesso");
+            Console.ReadKey();
+        }
+
 
         private static void AdicionaUsuario()
         {
@@ -160,7 +182,6 @@ namespace InterfaceBiblioteca
         {
             var listaUsuarios = usuariosController.RetornaListaDeUsuarios();
             listaUsuarios.ForEach(i => Console.WriteLine(i.Login+" "+i.Id));
-            Console.ReadKey();
         }
 
         /// <summary>
@@ -170,8 +191,13 @@ namespace InterfaceBiblioteca
         {
             var listaLivros = livrosController.RetornaListaDeLivros();
             listaLivros.ForEach(i => Console.WriteLine($"{i.Id} {i.Nome}"));
-            Console.ReadKey();
-            
+
+        }
+        private static void MostrarLivroInativo()
+        {
+            var listaLivros = livrosController.MostrarLivrosRemovidos();
+            listaLivros.ForEach(i => Console.WriteLine($"{i.Id} {i.Nome}"));
+
         }
 
         /// <summary>
