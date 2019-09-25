@@ -14,6 +14,12 @@ namespace LocacaoBiblioteca.Model
         public int IdContadorUsuarios { get; set; } = 1;
 
         
+
+        public List<Livro> ListaDeLivros { get; set; }
+
+        public List<Usuario> ListaDeUsuarios { get; set; }
+
+
         //criando um construtor
         public LocacaoContext()
         {
@@ -54,12 +60,6 @@ namespace LocacaoBiblioteca.Model
             });
         }
         //Cria-se 
-
-        public List<Livro> ListaDeLivros { get; set; }
-
-        public List<Usuario> ListaDeUsuarios { get; set; }
-
-
 
 
     }
