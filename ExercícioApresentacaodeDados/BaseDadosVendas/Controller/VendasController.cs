@@ -8,14 +8,16 @@ namespace BaseDadosVendas.Controller
 {
 
     public class VendasController
+
     {
-        private RelatorioContext contextDB = new RelatorioContext();
+        private RelatorioContext contextDB = new RelatorioContext();//
 
         public List<Vendas> RetornaListaVendas()
         {
             return contextDB.listaDeVendas;
         }
 
-        
+
+
     }
 }

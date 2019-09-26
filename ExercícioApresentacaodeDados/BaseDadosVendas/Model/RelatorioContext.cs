@@ -9,9 +9,12 @@ namespace BaseDadosVendas.Model
     public class RelatorioContext
         //Aqui eu crio um cópia dos dados
     {
-        public List<Vendas> listaDeVendas { get; set; }
+        public List<Vendas> listaDeVendas { get; set; }//declaro a lista pro compilador ver a lista, isso é criar uma propriedade
         public RelatorioContext()
         {
+            listaDeVendas = new List<Vendas>();//instancia, criam um espaço de memória
+
+
             listaDeVendas.Add(new Vendas() { IdCarro =  1, ModeloCarro = "Risus Company	 ",                         ValorCarro = 7.200, QuantidadeVendas = 18,  DataVendas = DateTime.Parse("29/01/2019") });
             listaDeVendas.Add(new Vendas() { IdCarro =  2, ModeloCarro = "Risus Associates	 ",                     ValorCarro = 9.961, QuantidadeVendas = 4,   DataVendas = DateTime.Parse("10/02/2019") });
             listaDeVendas.Add(new Vendas() { IdCarro =  3, ModeloCarro = "Et Libero Proin Foundation	 ",         ValorCarro = 8.710, QuantidadeVendas = 17,  DataVendas = DateTime.Parse("24/01/2019") });

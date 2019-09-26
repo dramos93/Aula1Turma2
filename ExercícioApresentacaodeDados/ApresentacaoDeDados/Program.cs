@@ -10,7 +10,7 @@ namespace SistemaDeRelatorios
 {
     class Program
     {
-        static VendasController vendasController = new VendasController();
+        static VendasController vendasController = new VendasController();//
         static void Main(string[] args)
         {
             Menu();
@@ -21,7 +21,7 @@ namespace SistemaDeRelatorios
             Console.WriteLine("Digite uma das opções Abaixo:\n ");
             Console.WriteLine("1 - Apresentar todos os dados: ");
 
-            /*var opcao = Console.ReadLine();
+            var opcao = Console.ReadLine();
 
             switch (opcao)
             {
@@ -31,13 +31,14 @@ namespace SistemaDeRelatorios
                     break;
                 default:
                     break;
-            }*/
+            }
         }
         public static void MostrarVendas()
         {
             var mostrar = vendasController.RetornaListaVendas();
-            mostrar.ForEach(i => Console.WriteLine($"{i.IdCarro} {i.ModeloCarro}"));
+            mostrar.ForEach(i => (i.QuantidadeVendas*i.ValorCarro));
             Console.ReadKey();
         }
+        //mostrar.ForEach(i => Console.WriteLine($"Mês: {i.DataVendas.Month}"));
     }
 }
