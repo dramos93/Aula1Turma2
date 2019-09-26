@@ -9,7 +9,7 @@ namespace BaseDadosVendas.Model
     public class RelatorioContext
         //Aqui eu crio um cópia dos dados
     {
-        public List<Vendas> listaDeVendas = new List<Vendas>();
+        public List<Vendas> listaDeVendas { get; set; }
         public RelatorioContext()
         {
             listaDeVendas.Add(new Vendas() { IdCarro =  1, ModeloCarro = "Risus Company	 ",                         ValorCarro = 7.200, QuantidadeVendas = 18,  DataVendas = DateTime.Parse("29/01/2019") });

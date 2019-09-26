@@ -11,11 +11,11 @@ namespace LocacaoBiblioteca.Controller
     {
         private LocacaoContext contextDB = new LocacaoContext();
 
-        public  LivrosController()
-        {
+        //public  LivrosController()
+        //{
 
 
-        }
+        //}
 
         
         /// <summary>

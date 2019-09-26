@@ -12,9 +12,6 @@ namespace LocacaoBiblioteca.Model
         //Propriedade que armazena ID dos livros adicionados ao sistema
         public int IdContadorLivros { get; set; } = 1;
         public int IdContadorUsuarios { get; set; } = 1;
-
-        
-
         public List<Livro> ListaDeLivros { get; set; }
 
         public List<Usuario> ListaDeUsuarios { get; set; }
