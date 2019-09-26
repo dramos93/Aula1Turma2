@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ListagemDeCarros.Model
 {
+
     public class Carro
     {
         public int Id { get; set; }
