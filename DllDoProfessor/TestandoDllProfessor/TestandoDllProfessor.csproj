@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C84EF446-24D2-431F-B09B-FCBC16A069DB}</ProjectGuid>
+    <ProjectGuid>{F7BBB3DF-5965-4112-BD37-D82F8E1AE09A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PegandoCervejadaAmiguinha</RootNamespace>
-    <AssemblyName>PegandoCervejadaAmiguinha</AssemblyName>
+    <RootNamespace>TestandoDllProfessor</RootNamespace>
+    <AssemblyName>TestandoDllProfessor</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,11 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ListaDeCervejas">
-      <HintPath>\\svprwy001\Alunos\hbsis\DllsComComentarios\39\ListaDeCervejas.dll</HintPath>
-    </Reference>
-    <Reference Include="ListagemDeCervejas">
-      <HintPath>\\svprwy001\Alunos\hbsis\DllsComComentarios\39\ListagemDeCervejas.dll</HintPath>
+    <Reference Include="DllPastaWin">
+      <HintPath>\\svprwy001\Alunos\hbsis\DllsComComentarios\0\DllPastaWin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
