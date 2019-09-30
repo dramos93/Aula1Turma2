@@ -15,5 +15,14 @@ namespace Dadosbiblioteca.Controller
         {
             return ListaLivrosContext.GetListaDeLivros;
         }
+        public List<Livros> MostrarLivrosDisponiveis(bool opcao)
+        {
+            return ListaLivrosContext.GetListaDeLivros.Where(x => (x.LivroAtivo== opcao)).ToList<Livros>();
+        }
+        public void AdicionarLivro(Livros nome)
+        {
+            nome.IdLivro = ListaLivrosContext.IdContadorLivro++;
+            ListaLivrosContext.ListaDeLivros.Add(nome);
+        }
     }
 }

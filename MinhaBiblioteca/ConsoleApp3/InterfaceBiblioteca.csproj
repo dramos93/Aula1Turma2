@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dadosbiblioteca\Dadosbiblioteca.csproj">
+      <Project>{0eb8ab9d-3ecc-4a2e-b4fe-527cbbfd802f}</Project>
+      <Name>Dadosbiblioteca</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
