@@ -24,6 +24,7 @@ namespace ConsoleApp3
             Console.WriteLine("2 - Adicionar Livros");
             Console.WriteLine("0 - Sair");
 
+
             switch (int.Parse(Console.ReadLine()))
             {
                 case 1:
