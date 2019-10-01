@@ -1,0 +1,11 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\bin\Debug\ApresentandoOsAlcoolatras.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\bin\Debug\ApresentandoOsAlcoolatras.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\bin\Debug\ApresentandoOsAlcoolatras.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\bin\Debug\ListagemDeCervejas.dll
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\bin\Debug\ListagemDeCervejas.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\bin\Debug\ListagemDeCervejas.xml
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\obj\Debug\ApresentandoOsAlcoolatras.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\obj\Debug\ApresentandoOsAlcoolatras.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\obj\Debug\ApresentandoOsAlcoolatras.csproj.CopyComplete
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\obj\Debug\ApresentandoOsAlcoolatras.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\ApresentandoOsAlcoolatras\obj\Debug\ApresentandoOsAlcoolatras.pdb

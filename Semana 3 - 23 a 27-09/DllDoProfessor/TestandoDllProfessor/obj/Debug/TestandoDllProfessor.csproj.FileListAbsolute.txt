@@ -1,0 +1,11 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\obj\Debug\TestandoDllProfessor.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\obj\Debug\TestandoDllProfessor.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\bin\Debug\TestandoDllProfessor.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\bin\Debug\TestandoDllProfessor.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\bin\Debug\TestandoDllProfessor.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\bin\Debug\DllPastaWin.dll
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\bin\Debug\DllPastaWin.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\bin\Debug\DllPastaWin.xml
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\obj\Debug\TestandoDllProfessor.csproj.CopyComplete
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\obj\Debug\TestandoDllProfessor.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\DllDoProfessor\TestandoDllProfessor\obj\Debug\TestandoDllProfessor.pdb

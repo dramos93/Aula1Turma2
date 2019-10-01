@@ -1,0 +1,7 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\AggregateLinq\bin\Debug\AggregateLinq.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\AggregateLinq\bin\Debug\AggregateLinq.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\AggregateLinq\bin\Debug\AggregateLinq.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\AggregateLinq\obj\Debug\AggregateLinq.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\AggregateLinq\obj\Debug\AggregateLinq.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\AggregateLinq\obj\Debug\AggregateLinq.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\AggregateLinq\obj\Debug\AggregateLinq.pdb

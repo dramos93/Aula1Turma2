@@ -1,0 +1,10 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\bin\Debug\InterfaceSistemaRelatório.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\bin\Debug\InterfaceSistemaRelatório.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\bin\Debug\InterfaceSistemaRelatório.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\bin\Debug\SistemaRelatórioCarros.dll
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\bin\Debug\SistemaRelatórioCarros.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\obj\Debug\InterfaceSistemaRelatório.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\obj\Debug\InterfaceSistemaRelatório.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\obj\Debug\InterfaceSistemaRelatório.csproj.CopyComplete
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\obj\Debug\InterfaceSistemaRelatório.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\InterfaceSistemaRelatório\obj\Debug\InterfaceSistemaRelatório.pdb

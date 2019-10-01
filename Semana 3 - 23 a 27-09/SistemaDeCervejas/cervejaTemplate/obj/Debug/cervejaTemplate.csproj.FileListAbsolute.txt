@@ -1,0 +1,10 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\bin\Debug\cervejaTemplate.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\bin\Debug\cervejaTemplate.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\bin\Debug\cervejaTemplate.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\bin\Debug\ListagemDeCervejas.dll
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\bin\Debug\ListagemDeCervejas.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\obj\Debug\cervejaTemplate.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\obj\Debug\cervejaTemplate.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\obj\Debug\cervejaTemplate.csproj.CopyComplete
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\obj\Debug\cervejaTemplate.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeCervejas\cervejaTemplate\obj\Debug\cervejaTemplate.pdb

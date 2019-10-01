@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListagemDeCervejas</name>
+    </assembly>
+    <members>
+        <member name="M:ListagemDeCervejas.Controller.CervejaControler.ListagemDeCervejas">
+            <summary>
+            Aqui eu retorno a lista de cerveja para quem chamar meu método
+            Posso utilizar para mostrar, selecionar e filtrar a minha lista
+            </summary>
+            <returns>Método que utilizo para Mostrar, selecionar e filtrar a Lista de Cerveja</returns>
+        </member>
+    </members>
+</doc>

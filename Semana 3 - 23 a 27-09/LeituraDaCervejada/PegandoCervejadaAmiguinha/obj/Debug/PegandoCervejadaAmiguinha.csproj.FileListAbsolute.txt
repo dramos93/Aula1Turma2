@@ -1,0 +1,2 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\PegandoCervejadaAmiguinha\obj\Debug\PegandoCervejadaAmiguinha.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\LeituraDaCervejada\PegandoCervejadaAmiguinha\obj\Debug\PegandoCervejadaAmiguinha.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\ExercícioApresentacaodeDados\BaseDadosVendas\bin\Debug\BaseDadosVendas.dll
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\ExercícioApresentacaodeDados\BaseDadosVendas\bin\Debug\BaseDadosVendas.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\ExercícioApresentacaodeDados\BaseDadosVendas\obj\Debug\BaseDadosVendas.csprojAssemblyReference.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\ExercícioApresentacaodeDados\BaseDadosVendas\obj\Debug\BaseDadosVendas.csproj.CoreCompileInputs.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\ExercícioApresentacaodeDados\BaseDadosVendas\obj\Debug\BaseDadosVendas.dll
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\ExercícioApresentacaodeDados\BaseDadosVendas\obj\Debug\BaseDadosVendas.pdb

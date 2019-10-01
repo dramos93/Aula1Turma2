@@ -1,0 +1,9 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\obj\Debug\Amiguinho.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\bin\Debug\Amiguinho.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\bin\Debug\Amiguinho.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\bin\Debug\Amiguinho.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\bin\Debug\MinhaBiBlioteca.dll
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\obj\Debug\Amiguinho.csproj.CopyComplete
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\obj\Debug\Amiguinho.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\obj\Debug\Amiguinho.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Amiguinho\bin\Debug\BuscandoInfo.dll

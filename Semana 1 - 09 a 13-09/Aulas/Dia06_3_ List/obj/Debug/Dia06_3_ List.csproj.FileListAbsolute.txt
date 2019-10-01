@@ -1,0 +1,7 @@
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_3_ List\bin\Debug\Dia06_3_ List.exe.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_3_ List\bin\Debug\Dia06_3_ List.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_3_ List\bin\Debug\Dia06_3_ List.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_3_ List\obj\Debug\Dia06_3_ List.csproj.CoreCompileInputs.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_3_ List\obj\Debug\Dia06_3_ List.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_3_ List\obj\Debug\Dia06_3_ List.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_3_ List\obj\Debug\Dia06_3_ List.csprojAssemblyReference.cache

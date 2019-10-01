@@ -1,0 +1,11 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\bin\Debug\dia08_AcessandoInformação.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\bin\Debug\dia08_AcessandoInformação.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\bin\Debug\dia08_AcessandoInformação.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\bin\Debug\Dia07_Crazy_Project.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\bin\Debug\Dia07_Crazy_Project.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\bin\Debug\Dia07_Crazy_Project.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\obj\Debug\dia08_AcessandoInformação.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\obj\Debug\dia08_AcessandoInformação.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\obj\Debug\dia08_AcessandoInformação.csproj.CopyComplete
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\obj\Debug\dia08_AcessandoInformação.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\dia08_AcessandoInformação\obj\Debug\dia08_AcessandoInformação.pdb

@@ -1,0 +1,2 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\obj\Debug\Dia08_Ex1.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\obj\Debug\Dia08_Ex1.csproj.CoreCompileInputs.cache

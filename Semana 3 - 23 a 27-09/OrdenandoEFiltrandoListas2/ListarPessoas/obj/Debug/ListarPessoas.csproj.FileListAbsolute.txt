@@ -1,0 +1,7 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\OrdenandoEFiltrandoListas2\ListarPessoas\bin\Debug\ListarPessoas.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\OrdenandoEFiltrandoListas2\ListarPessoas\bin\Debug\ListarPessoas.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\OrdenandoEFiltrandoListas2\ListarPessoas\bin\Debug\ListarPessoas.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\OrdenandoEFiltrandoListas2\ListarPessoas\obj\Debug\ListarPessoas.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\OrdenandoEFiltrandoListas2\ListarPessoas\obj\Debug\ListarPessoas.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\OrdenandoEFiltrandoListas2\ListarPessoas\obj\Debug\ListarPessoas.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\OrdenandoEFiltrandoListas2\ListarPessoas\obj\Debug\ListarPessoas.pdb

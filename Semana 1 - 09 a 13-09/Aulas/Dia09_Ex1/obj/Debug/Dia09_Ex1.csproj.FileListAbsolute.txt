@@ -1,0 +1,6 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\obj\Debug\Dia09_Ex1.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\bin\Debug\Dia09_Ex1.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\bin\Debug\Dia09_Ex1.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\bin\Debug\Dia09_Ex1.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\obj\Debug\Dia09_Ex1.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\Aulas\Dia09_Ex1\obj\Debug\Dia09_Ex1.pdb

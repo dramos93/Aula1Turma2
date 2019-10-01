@@ -1,0 +1,11 @@
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\bin\Debug\Dia07_03_ConversorMonetário.exe.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\bin\Debug\Dia07_03_ConversorMonetário.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\bin\Debug\Dia07_03_ConversorMonetário.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\bin\Debug\dia07_02_MetodosPublicos.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\bin\Debug\dia07_02_MetodosPublicos.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\bin\Debug\dia07_02_MetodosPublicos.exe.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\obj\Debug\Dia07_03_ConversorMonetário.csprojAssemblyReference.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\obj\Debug\Dia07_03_ConversorMonetário.csproj.CoreCompileInputs.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\obj\Debug\Dia07_03_ConversorMonetário.csproj.CopyComplete
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\obj\Debug\Dia07_03_ConversorMonetário.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_03_ConversorMonetário\obj\Debug\Dia07_03_ConversorMonetário.pdb

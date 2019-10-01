@@ -1,0 +1,7 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\SumLink\bin\Debug\SumLink.exe.config
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\SumLink\bin\Debug\SumLink.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\SumLink\bin\Debug\SumLink.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\SumLink\obj\Debug\SumLink.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\SumLink\obj\Debug\SumLink.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\SumLink\obj\Debug\SumLink.exe
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\FuncoesLink\SumLink\obj\Debug\SumLink.pdb

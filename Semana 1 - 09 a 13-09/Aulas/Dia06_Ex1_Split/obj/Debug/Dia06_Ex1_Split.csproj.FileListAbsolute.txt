@@ -1,0 +1,6 @@
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_Ex1_Split\bin\Debug\Dia06_Ex1_Split.exe.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_Ex1_Split\bin\Debug\Dia06_Ex1_Split.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_Ex1_Split\bin\Debug\Dia06_Ex1_Split.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_Ex1_Split\obj\Debug\Dia06_Ex1_Split.csproj.CoreCompileInputs.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_Ex1_Split\obj\Debug\Dia06_Ex1_Split.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia06_Ex1_Split\obj\Debug\Dia06_Ex1_Split.pdb

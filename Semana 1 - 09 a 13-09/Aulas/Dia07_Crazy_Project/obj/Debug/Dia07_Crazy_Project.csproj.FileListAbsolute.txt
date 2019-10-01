@@ -1,0 +1,7 @@
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_Crazy_Project\bin\Debug\Dia07_Crazy_Project.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_Crazy_Project\obj\Debug\Dia07_Crazy_Project.csproj.CoreCompileInputs.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_Crazy_Project\obj\Debug\Dia07_Crazy_Project.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_Crazy_Project\bin\Debug\Dia07_Crazy_Project.dll.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_Crazy_Project\bin\Debug\Dia07_Crazy_Project.dll
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_Crazy_Project\obj\Debug\Dia07_Crazy_Project.dll
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Dia07_Crazy_Project\obj\Debug\Dia07_Crazy_Project.csprojAssemblyReference.cache

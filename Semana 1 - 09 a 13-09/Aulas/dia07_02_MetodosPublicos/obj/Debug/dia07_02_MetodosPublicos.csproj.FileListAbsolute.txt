@@ -1,0 +1,11 @@
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\bin\Debug\dia07_02_MetodosPublicos.exe.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\bin\Debug\dia07_02_MetodosPublicos.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\bin\Debug\dia07_02_MetodosPublicos.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\bin\Debug\Dia06_2_IniciandoForeach.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\bin\Debug\Dia06_2_IniciandoForeach.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\bin\Debug\Dia06_2_IniciandoForeach.exe.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\obj\Debug\dia07_02_MetodosPublicos.csprojAssemblyReference.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\obj\Debug\dia07_02_MetodosPublicos.csproj.CoreCompileInputs.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\obj\Debug\dia07_02_MetodosPublicos.csproj.CopyComplete
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\obj\Debug\dia07_02_MetodosPublicos.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\dia07_02_MetodosPublicos\obj\Debug\dia07_02_MetodosPublicos.pdb

@@ -1,0 +1,7 @@
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Texte\bin\Debug\Texte.exe.config
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Texte\bin\Debug\Texte.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Texte\bin\Debug\Texte.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Texte\obj\Debug\Texte.csproj.CoreCompileInputs.cache
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Texte\obj\Debug\Texte.exe
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Texte\obj\Debug\Texte.pdb
+C:\Users\900075\Source\Repos\dramos93\Aula1Turma2\Aulas\Texte\obj\Debug\Texte.csprojAssemblyReference.cache

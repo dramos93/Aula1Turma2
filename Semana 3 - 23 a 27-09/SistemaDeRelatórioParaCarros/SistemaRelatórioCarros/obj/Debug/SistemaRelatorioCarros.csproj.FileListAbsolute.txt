@@ -1,0 +1,6 @@
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\SistemaRelatórioCarros\bin\Debug\SistemaRelatórioCarros.dll
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\SistemaRelatórioCarros\bin\Debug\SistemaRelatórioCarros.pdb
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\SistemaRelatórioCarros\obj\Debug\SistemaRelatorioCarros.csprojAssemblyReference.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\SistemaRelatórioCarros\obj\Debug\SistemaRelatorioCarros.csproj.CoreCompileInputs.cache
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\SistemaRelatórioCarros\obj\Debug\SistemaRelatórioCarros.dll
+C:\Users\900075\source\repos\dramos93\Aula1Turma2\SistemaDeRelatórioParaCarros\SistemaRelatórioCarros\obj\Debug\SistemaRelatórioCarros.pdb
