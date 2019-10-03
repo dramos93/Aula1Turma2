@@ -19,7 +19,7 @@ create table [dbo].[Funcionarios]
 	[Id]				INT  PRIMARY KEY IDENTITY(1,1),
 	[Nome]				NVARCHAR(30)	NOT NULL,
     [DataInicio]		DATETIME		DEFAULT (getdate()) NULL,
-    [DataSaida]			DATETIME		DEFAULT () NULL,
+    [DataSaida]			DATETIME		NULL,
     [Ativo]				BIT				DEFAULT ((1)) NULL,
     [UsuarioCriacao]	INT				DEFAULT ((0)) NULL,
     [UsuarioAlteracao]	INT				DEFAULT ((0)) NULL,
