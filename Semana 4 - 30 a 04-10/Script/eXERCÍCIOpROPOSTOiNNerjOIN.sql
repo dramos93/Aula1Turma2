@@ -44,10 +44,3 @@ order by Usuarios.Usuario asc
 
 
 --Trazer somente a quantidade de carros que Giomar cadastrou menor para maior
-
-
-select count(*), MAX(MAR.id) AS MAXID from marcas MAR
-group by MAR.UsuInc
-
-
-UPDATE MARCAS SET ATIVO = 0 WHERE ID < 5
