@@ -5,12 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassAlunos.Model
+namespace EntityClass.Model
 {
-    public class AlunosContext : DbContext
+    public class EntityAlunosContext : DbContext
     {
-            public DbSet<Alunos> ListaAlunos { get; set; }
-
-
+        public DbSet<Aluno> Alunos { get; set; }
     }
 }
