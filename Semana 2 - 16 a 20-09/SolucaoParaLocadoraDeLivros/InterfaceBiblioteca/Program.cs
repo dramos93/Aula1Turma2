@@ -116,8 +116,13 @@ namespace InterfaceBiblioteca
             MostrarLivro();
             Console.WriteLine("*******************************\nInforme o ID para desativar o livro do Sistema: ");
             int livroID = int.Parse(Console.ReadLine());
-            livrosController.RemoverLivroPorID(livroID);
+            var resultado = livrosController.RemoverLivroPorID(livroID);
+            if(resultado == true)
             Console.WriteLine("Livro Removido com sucesso");
+            if (resultado == false)
+            {
+                Console.WriteLine("Erro ao Tentar Remover o Livro");
+            }
             Console.ReadKey();
         }
 
@@ -189,9 +194,7 @@ namespace InterfaceBiblioteca
         /// </summary>
         private static void MostrarLivro()
         {
-            var listaLivros = livrosController.RetornaListaDeLivros();
-            listaLivros.ForEach(i => Console.WriteLine($"{i.Id} {i.Nome}"));
-
+            livrosController.Getlivros().ToList<Livro>().ForEach(x => Console.WriteLine($"Id: { x.Id} Nome: {x.Nome} Data Criação: {x.DataCriacao} Data Alteração :{x.DataAlteracao}"));
         }
         private static void MostrarLivroInativo()
         {
