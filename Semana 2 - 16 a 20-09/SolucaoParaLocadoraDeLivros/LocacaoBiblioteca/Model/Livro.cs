@@ -15,5 +15,6 @@ namespace LocacaoBiblioteca.Model
         [Required]
         [MaxLength(30)]
         public string Nome { get; set; }
+
     }
 }

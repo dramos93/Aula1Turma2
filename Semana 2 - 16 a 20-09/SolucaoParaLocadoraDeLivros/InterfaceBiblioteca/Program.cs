@@ -261,8 +261,6 @@ namespace InterfaceBiblioteca
 
             return (usuariosController.LoginSistema(usuario));
 
-        }
-
-       
+        } 
     }
 }
