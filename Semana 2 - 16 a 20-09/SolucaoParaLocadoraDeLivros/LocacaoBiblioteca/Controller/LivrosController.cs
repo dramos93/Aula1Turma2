@@ -16,9 +16,9 @@ namespace LocacaoBiblioteca.Controller
         /// Método que mostra os livros
         /// </summary>
         /// <returns>Retorna se o livro foi adicionado com sucesso(true)</returns>
-        public IQueryable<Livro> Getlivros()
+        public IQueryable<Livro> Getlivros(bool retorno)
         {
-            return contextDB.livros.Where(x => x.Ativo == true);
+            return contextDB.livros.Where(x => x.Ativo == retorno);
         }
        
         /// <summary>
@@ -45,6 +45,8 @@ namespace LocacaoBiblioteca.Controller
         /// <returns>Retorna se o livro foi bem sucedido ou não</returns>
         public bool RemoverLivroPorID(int identificadorID)
         {
+            if (string.IsNullOrWhiteSpace(identificadorID.ToString()))
+                return false;
             var livro = contextDB.livros.FirstOrDefault<Livro>(x => x.Id == identificadorID);
             if (livro == null)
                 return false;
@@ -64,7 +66,7 @@ namespace LocacaoBiblioteca.Controller
         /// <returns></returns>
         public List<Livro> MostrarLivrosRemovidos()//Retorna a lista de livro
         {
-            return contextDB.ListaDeLivros.Where(x => (x.Ativo == false)).ToList<Livro>(); ;//essa é a lista criada
+            return contextDB.livros.Where(x => (x.Ativo == false)).ToList<Livro>(); ;//essa é a lista criada
         }
 
         public bool AtualizarLivro(Livro NLivro)
@@ -74,6 +76,7 @@ namespace LocacaoBiblioteca.Controller
             if (y != null)
             {
                 y.DataAlteracao = DateTime.Now;
+                y.Nome = NLivro.Nome;
                 contextDB.SaveChanges();
                 return true;
             }
