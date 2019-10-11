@@ -9,7 +9,7 @@ namespace ClassFloricultura.Controller
 {
     public class FloresController
     {
-        public FloresContext floresController = new FloresContext();
+        public FloresContext floresContext = new FloresContext();
 
         /// <summary>
         /// Método que Retorna Lista de Flores
@@ -17,20 +17,24 @@ namespace ClassFloricultura.Controller
         /// <returns>Lista de Flores</returns>
         public IQueryable<Flores> GettFlores()
         {
-            return floresController.Flor;
+            return floresContext.Flor;
         }
 
         public bool AddFlor(Flores item)
         {
             var retornoNome = (string.IsNullOrWhiteSpace(item.Nome));
-            if (!retornoNome)
+            if (retornoNome)
                 return false;
             else
             {
-                floresController.Flor.Add(item);
-                floresController.SaveChanges();
+                floresContext.Flor.Add(item);
+                floresContext.SaveChanges();
                 return true;
             }
+        }
+        public int SomaDeFlores()
+        {
+            return floresContext.Flor.Sum(x => x.Quantidade);
         }
     }
 }
