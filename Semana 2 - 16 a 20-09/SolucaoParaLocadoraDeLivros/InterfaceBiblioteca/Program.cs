@@ -32,6 +32,7 @@ namespace InterfaceBiblioteca
             Console.Clear();
             Console.WriteLine("SISTEMA DE LOCAÇÂO DE LIVRO 1.0");
             Console.WriteLine("Menu Sistema");
+            Console.WriteLine("9 - Atualizar Livro");
             Console.WriteLine("8 - Apresentar Livros Removidos");
             Console.WriteLine("7 - Remover Livros");
             Console.WriteLine("6 - Remover Usuário");
@@ -61,7 +62,7 @@ namespace InterfaceBiblioteca
                     MostraMenuSistema();
                     break;
                 case "2": //2 - Listar Livros
-                    MostrarLivro();
+                    MostrarLivro(true);
                     Console.ReadKey();
                     MostraMenuSistema();
                     break;
@@ -87,7 +88,12 @@ namespace InterfaceBiblioteca
                     MostraMenuSistema();
                     break;
                 case "8": //8 - Apresentar Livros Removidos
-                    MostrarLivroInativo();
+                    MostrarLivro(false);
+                    Console.ReadKey();
+                    MostraMenuSistema();
+                    break;
+                case "9": //8 - Apresentar Livros Removidos
+                    AtualizarLivro();
                     Console.ReadKey();
                     MostraMenuSistema();
                     break;
@@ -113,11 +119,17 @@ namespace InterfaceBiblioteca
         private static void RemoverLivropeloID()
         {
             Console.WriteLine("Remover o livro pelo ID no sistema: \n*******************************");
-            MostrarLivro();
+            MostrarLivro(true);
             Console.WriteLine("*******************************\nInforme o ID para desativar o livro do Sistema: ");
-            int livroID = int.Parse(Console.ReadLine());
-            livrosController.RemoverLivroPorID(livroID);
-            Console.WriteLine("Livro Removido com sucesso");
+            int livroID;
+            int.TryParse(Console.ReadLine(), out livroID);
+            
+                
+            var resultado = livrosController.RemoverLivroPorID(livroID);
+            if(resultado)
+                Console.WriteLine("Livro Removido com sucesso");
+            else
+                Console.WriteLine("Erro ao Tentar Remover o Livro, Volte ao menu  tente novamente");
             Console.ReadKey();
         }
 
@@ -161,15 +173,42 @@ namespace InterfaceBiblioteca
             var nomeDoLivro = Console.ReadLine();
             //Aqui "atribuimos" o nome que demos ao livro na propriedade Nome de nosso livro
             //com o sinal de apenas um "=" temos atribuição, passagem de valor
-            livrosController.AdicionarLivro(new Livro()
+            var retorno = livrosController.AdicionarLivro(new Livro()
             {
                 //Aqui "atribuimos" o nome que demos ao livro na propriedade NOme de nosso livro
                 //com o sinal de apenas um "=" temos atrubuição, passagem de valor
                 Nome = nomeDoLivro
             }) ;
-            // Indico que finalizamos o processo de cadastro do livro, assim o usuário já sabe que 
-            //o mesmo doi realizado e sem erros
-            Console.WriteLine("Livro Cadastrado com Sucesso");
+            if (retorno)
+                Console.WriteLine("Livro Cadastrado com Sucesso");
+            else
+                Console.WriteLine("Erro ao Cadastrar Livro, você digitou algo errado.\nVolte ao Menu e tente Novamente");
+            //Readkey apenas para que ele visualize esta informação
+            Console.ReadKey();
+        }
+        private static void AtualizarLivro()
+        {
+            //Identificamos que o mesmo está na parte de cadastro de livros do sistema
+            Console.WriteLine("Atualiza Livro dentro do sistema!\n");
+            MostrarLivro(true);
+            Console.Write("Id do Livro para Cadastro: ");
+            var IDoLivro = int.Parse(Console.ReadLine());
+            Console.Write("Digite o nome atual do Livro: ");
+            var NomeDoLivro = Console.ReadLine();
+            var retorno = livrosController.AtualizarLivro(new Livro()
+            {
+                //Aqui "atribuimos" o nome que demos ao livro na propriedade NOme de nosso livro
+                //com o sinal de apenas um "=" temos atrubuição, passagem de valor
+                Id = IDoLivro,
+                Nome = NomeDoLivro
+            }) ;
+            if (retorno)
+                // Indico que finalizamos o processo de cadastro do livro, assim o usuário já sabe que 
+                //o mesmo doi realizado e sem erros
+                Console.WriteLine("Livro Atualizado com Sucesso");
+            else
+                Console.WriteLine( "Erro ao Cadastrar, escolha a opção para alterar novamente");
+            
             //Readkey apenas para que ele visualize esta informação
             Console.ReadKey();
         }
@@ -187,16 +226,14 @@ namespace InterfaceBiblioteca
         /// <summary>
         /// Apresenta o livro que foi colocado dentro da biblioteca Livro
         /// </summary>
-        private static void MostrarLivro()
+        private static void MostrarLivro(bool retorno)
         {
-            var listaLivros = livrosController.RetornaListaDeLivros();
-            listaLivros.ForEach(i => Console.WriteLine($"{i.Id} {i.Nome}"));
-
+            livrosController.Getlivros(retorno).ToList<Livro>().ForEach(x => Console.WriteLine( string.Format("Id: {0,2} | Nome: {1,-20} | Data Criação: {2,-15} | Data Alteração: {3,-15}",x.Id,x.Nome, x.DataCriacao.ToString("M"),x.DataAlteracao.ToString("g"))));
         }
         private static void MostrarLivroInativo()
         {
             var listaLivros = livrosController.MostrarLivrosRemovidos();
-            listaLivros.ForEach(i => Console.WriteLine($"{i.Id} {i.Nome}"));
+            listaLivros.ForEach(i =>  string.Format("Id:{0:2} Livro: {1:20} Excluído por {2:10} em {3:15}", i.Id, i.Nome, i.UsuarioAlteracao, i.DataAlteracao));
 
         }
 
@@ -224,8 +261,6 @@ namespace InterfaceBiblioteca
 
             return (usuariosController.LoginSistema(usuario));
 
-        }
-
-       
+        } 
     }
 }
