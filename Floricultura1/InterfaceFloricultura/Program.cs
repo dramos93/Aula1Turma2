@@ -23,6 +23,7 @@ namespace InterfaceFloricultura
                 Console.WriteLine("1 - Mostrar Flores");
                 Console.WriteLine("2 - Adicionar Flor");
                 Console.WriteLine("3 - Mostrar Quantidade de Flor");
+                Console.WriteLine("4 - Sair");
                 i = int.TryParse(Console.ReadLine(), out opcao);
                 if (i)
                 {
