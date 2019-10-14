@@ -31,6 +31,7 @@ namespace InterfaceBicicleta
                     {
                         case 1:
                             ListarBicicleta();
+                            Console.ReadKey();
                             break;
                         case 2:
                             AdicionarBicicleta();
@@ -77,13 +78,12 @@ namespace InterfaceBicicleta
             bool x = double.TryParse(Console.ReadLine(), out _Valor);
             if (x)
             {
-                teste = bicicletaController.InserirBicicleta(new Bicicleta { Modelo = _modelo, Marca = _Marca, Valor = _Valor, Id = _Id });
-                Console.ReadKey();
+                teste = bicicletaController.AtualizarBicicleta(new Bicicleta { Modelo = _modelo, Marca = _Marca, Valor = _Valor, Id = _Id });
             }
 
             if (teste)
             {
-                Console.WriteLine("Alteração Concluída");
+                Console.WriteLine("Alteração Concluída Com Sucesso");
                 Console.ReadKey();
             }
             else
@@ -121,7 +121,6 @@ namespace InterfaceBicicleta
         private static void ListarBicicleta()
         {
             bicicletaController.GetBicicletas().ToList().ForEach(x => Console.WriteLine(string.Format("Id: {0,2} | Modelo: {1,-15} | Marca: {2,-15} | Valor: {3,8}", x.Id,x.Modelo,x.Marca,x.Valor.ToString("C")))); 
-            Console.ReadKey();
         }
 
 
@@ -129,6 +128,7 @@ namespace InterfaceBicicleta
         {
             Console.WriteLine("Erro, Volte e Tente Novamente");
             Console.Write("\nPressione qualquer tecla para sair...");
+            Console.ReadKey();
             Console.Clear();
         }
     }
