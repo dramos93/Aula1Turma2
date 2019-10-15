@@ -2,28 +2,80 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <style>
-        #Formulário {
-            border: 1px solid black;
-            margin-top: 20%;
-            margin-bottom: 110px;
-            margin-right: 50%;
-            margin-left: 20%;
-            background-color: lightblue;
+        body
+        {
+          background-color:  #80e5ff
+        }
+        #Formulario
+        {
+                  margin: 0;
+                  padding: 40px;
+                  width: 400px;
+                  height: auto;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%,-50%);
+                  text-align: left;
+                  position: absolute;
+                  background-color: #ffffff80;
+                  box-shadow: 1px 1px 15px 1px #0077b3;
+                  border-radius: 10px;
+        }
+        .box input[name="Nome"]
+        {
+          border: 0;
+          background: none;
+        }
+        .box input[id="nacionalidade"],.box input[id = "dataDeNascimento"]
+        {
+          width: 180px;
+        }
+        .box input
+        {
+          position: static;
+          background: none;
+          margin: 8px auto;
+          border: 1px solid #0077b3;
+          padding: 10px;
+          outline: none;
+          color: #005580;
+          border-radius: 5px;
+          transition: 0.25s;
+        }
+        .box input[type="submit"]
+        {
+          margin-left: 35%;
+          background-color: #006699;
+          color: white;
+          width: 100px;
+          position: static;
+
+        }
+        .box input:focus
+        {
+          border: 2px solid #33cccc;
+        }
+        .box input[name = "nome"]:focus
+        {
+          width: 300px ;
         }
     </style>
 
 </head>
 <body>
-    <div id="Formulário">
-        <input type="text" name="nome" id="name" maxlength="30"/>
-        <input type="number" name="idade" id="idade" />
-        <input type="text" name="sexo" id="sexo" />
-        <input type="text" name="nacionalidade" id="nacionalidade" />
-        <input type="number" name="cpf" id="cpf" maxlength="11" formenctype="" />
-        <input type="date" name="dataDeNascimento" id="dadeDeNascimento" />
-        <input type="button" name="Enviar" value="Enviar" />
-    </div>
+  <form class="box" action="index.html" method="post">
 
+
+    <div id="Formulario">
+        <input type="text" name="nome" id="name" placeholder="Nome" maxlength="30"/><br>
+        <input type="text" name="nacionalidade" id="nacionalidade" placeholder="Nacionalidade"/>
+        <input type="number" name="idade" id="idade" placeholder="Idade"/><br>
+        <input type="date" name="dataDeNascimento" id="dataDeNascimento" placeholder="Data de Nascimento"/>
+        <input type="text" name="sexo" id="sexo" placeholder="Sexo"/>
+        <input type="int" name="cpf" id="cpf" maxlength="14" placeholder="CPF" onkeypress="000.000.000-00" /><br>
+        <input type="submit" name="Enviar" value="Enviar" />
+    </div>
+  </form>
 
 </body>
 </html>
