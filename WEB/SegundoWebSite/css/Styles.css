@@ -1,0 +1,20 @@
+.Titulo{
+    font-family:'Lucida Sans';
+    background-color:chartreuse;
+
+}
+.campo input:focus {
+    border: 1px #000000;
+    background-color: #ffffff80;
+    color: solid #000000;
+}
+body
+{
+    background-image: url(https://wallpaperaccess.com/full/205607.jpg);
+}
+.campo input {
+    background-color: #ffffff50;
+    border: 1px solid #ffffff;
+    text-emphasis-color: #ffffff ;
+
+}
