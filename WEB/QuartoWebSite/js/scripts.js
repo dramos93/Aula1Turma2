@@ -23,14 +23,14 @@ $('input[id="OK"]').click(
         var resultado;
         if (valor1 != "" ^  valor2 != "") {
             if (valor1 != "") {
-                resultado = valor1 / 4.16;
+                resultado = valor1 * 4.16;
                 var indexPonto = String(resultado).indexOf(".");
                 var resultadoFormatado = String(resultado).substring(0, indexPonto + 3)
                 resultadoFormatado = resultadoFormatado.replace(".", ",");
                 $('input[id="valor2"]').val("$ " + resultadoFormatado);
             }
             if (valor2 != "") {
-                resultado = valor2 * 4.16;
+                resultado = valor2 / 4.16;
                 indexPonto = String(resultado).indexOf(".");
                 resultadoFormatado = String(resultado).substring(0, indexPonto + 3)
                 resultadoFormatado = resultadoFormatado.replace(".", ",")
