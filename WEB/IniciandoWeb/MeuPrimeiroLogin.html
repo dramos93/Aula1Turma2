@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        body
+        {
+
+        }
+        #Documento
+        {
+            position: center;
+        }
+        #Login
+        {
+
+            width: 200px;
+            height: 200px;  
+            padding: 15px; /*qual afastado do texto interno da caixa*/
+
+            margin: 20% 40%; /*Margem em relação ao lado de cima e ao lado esquerdo*/
+            display: inline-block; /*Não sei*/
+            border: 1px solid #000000; /*Espessuar e cor da borda*/
+            border-radius: 10px; /*Arredonda os cantos*/
+            box-sizing: border-box; /*Não sei o que é*/
+            position: absolute;
+            background-color: #ffffff30;
+            
+        }
+        #Logar
+        {
+            mar
+            padding: 75px 50px;
+        }
+        #myVideo 
+        {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="Documento">
+         <video autoplay loop id="myVideo" muted><source src="C:\Users\900075\Downloads\Vídeo Helicóptero.mp4" type="video/mp4"></video>
+        <div id="Título">
+
+        </div>
+        <div id="Login">
+            <label for="fname"> Usuário: </label>
+            <input type="text" id="usuario" name="Usuário" />
+            <br>
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="Senha" placeholder="Senha..." />
+
+
+
+            <div id="Logar">
+                <input type="button" name="Botão" value="Logar" />
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

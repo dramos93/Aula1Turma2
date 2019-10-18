@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SolucaoBicicletas"
+    "\\WEB",
+    "\\WEB\\SegundoWebSite\\css",
+    "\\WEB\\SegundoWebSite\\js"
   ],
-  "SelectedNode": "\\SolucaoBicicletas\\SolucaoBicicletas.sln",
+  "SelectedNode": "\\WEB\\TerceiroWebSite",
   "PreviewInSolutionExplorer": false
 }
