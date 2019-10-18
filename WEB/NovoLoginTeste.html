@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" media="screen" href="https://codepen.io/Lewitje/pen/BNNJjo.css" id="cm-theme">
     <title>Hello, world!</title>
+    
+    </style>
 </head>
 <body>
     <div class="height:100vh wrapper">
@@ -48,5 +49,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>>
     <script src="file:///C://Users/Daniel/source/repos/dramos93/Aula1Turma2/WEB/TesteLogin/js/script.js"></script>
 
+    <script>
+        $("#login-button").click(function (event) {
+            event.preventDefault();
+
+            $('form').fadeOut(500);
+            $('.wrapper').addClass('form-success');
+        });
+    </script>
 </body>
 </html>
