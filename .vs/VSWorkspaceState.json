@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\WEB",
-    "\\WEB\\SegundoWebSite\\css",
-    "\\WEB\\SegundoWebSite\\js"
+    "\\WEB\\TesteLogin\\CSS",
+    "\\WEB\\TesteLogin\\js"
   ],
-  "SelectedNode": "\\WEB\\TerceiroWebSite",
+  "SelectedNode": "\\WEB\\NovoLoginTeste.html",
   "PreviewInSolutionExplorer": false
 }
