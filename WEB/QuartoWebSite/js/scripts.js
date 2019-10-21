@@ -1,28 +1,37 @@
+var DogPadrao = {};
+
 $(document).ready(
-    function myfunction() {
-        function Dog(Nome, Idade, Raça, Coloracao) {
-            this.Nome = Nome;
-            this.Idade = Idade;
-            this.Raça = Raca;
-            this.Coloracao= Coloracao;
-        }
-        $('button[name="btnboasvindas"]').click(function () {
-            debugger
-            var nomeUsuario = $('input[name="nomeUsuario"]').val();
-            //alert("Bem vindo " + nomeUsuario + ", ao nosso sistema de cervejaria.");
-            $('span[name="usuariotext"]').text(nomeUsuario);
+    function () {
 
 
+        function Dog(Nome, Idade, Raca, Coloracao) {
+            DogPadrao =
+                {
+                    Nome: Nome,
+                    Idade: Idade,
+                    Raca: Raca,
+                    Coloracao: Coloracao
+                };
+        };
+
+        //var MeuNovoDog = Dog("NomeDoDog", 14, "SRD", "Amarelo");
+        var MeuNovoDog;
+
+        $('button[id="Salvar"]').click(function () {
+            MeuNovoDog.Nome = $('type[id="Nome"]');
+            MeuNovoDog.Idade = $('type[id="Idade"]');
+            MeuNovoDog.Raca = $('type[id="Raca"]');
+            MeuNovoDog.Coloracao = $('type[id="Coloracao"]');
         });
+        $('button[id="Mostrar"]').click(function () {
+            alert(DogPadrao.Nome + "\r\n" + DogPadrao.Idade);
+        });
+    }
+);
+function LimparTela() {
+    var meusImputs = $('input[]');
+    meusImputs.val("");
 
 
 
-
-
-
-
-
-
-
-
-    });
+}
