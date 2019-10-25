@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_IMC", "API_IMC\API_IMC.csproj", "{DC89C760-421B-4EA4-B19B-4A30D3293B76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC89C760-421B-4EA4-B19B-4A30D3293B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC89C760-421B-4EA4-B19B-4A30D3293B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC89C760-421B-4EA4-B19B-4A30D3293B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC89C760-421B-4EA4-B19B-4A30D3293B76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B842AE40-A0F5-44E4-A157-7B4DC31B13F0}
+	EndGlobalSection
+EndGlobal

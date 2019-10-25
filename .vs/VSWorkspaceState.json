@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\WEB",
-    "\\WEB\\QuartoWebSite\\css",
-    "\\WEB\\QuartoWebSite\\js",
-    "\\WEB\\SegundoWebSiteProf\\js",
-    "\\WEB\\SegundoWebSite\\js",
-    "\\WEB\\TerceiroWebSite\\js",
-    "\\WEB\\WEBAPI",
-    "\\WEB\\WEBAPI\\js"
+    ""
   ],
-  "SelectedNode": "\\WEB\\WEBAPI\\js\\scripts.js",
+  "SelectedNode": "\\WEB",
   "PreviewInSolutionExplorer": false
 }
