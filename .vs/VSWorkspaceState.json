@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WEB",
+    "\\WEB_IMC"
   ],
-  "SelectedNode": "\\WEB",
+  "SelectedNode": "\\WEB_IMC\\WEB_IMC.sln",
   "PreviewInSolutionExplorer": false
 }
