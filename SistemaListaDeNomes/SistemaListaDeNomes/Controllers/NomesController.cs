@@ -11,7 +11,7 @@ namespace SistemaListaDeNomes.Controllers
     public class NomesController : ApiController
     {
 
-        List<Pessoa> GetPessoas = new List<Pessoa>()
+        public List<Pessoa> listaPessoas = new List<Pessoa>()
         {
             new Pessoa() { Nome = "Daniel", Idade= 19 },
             new Pessoa() { Nome = "Eduardo", Idade= 24 },
@@ -24,13 +24,14 @@ namespace SistemaListaDeNomes.Controllers
             new Pessoa() { Nome = "Luis", Idade= 31 },
             new Pessoa() { Nome = "Matheus", Idade= 10 },
         };
-        public List<Pessoa> Get()
+        //public List<Pessoa> Post()
+        //{
+        //    return listaPessoas.OrderByDescending(x => x.Idade).ToList();
+        //}
+        public List<Pessoa> Post(Pessoa pessoa)
         {
-            return GetPessoas;
-        }
-        public Pessoa Post(Pessoa values)
-        {
-            return Pessoa;
+            listaPessoas.Add(pessoa);
+            return listaPessoas.OrderByDescending(x => x.Idade).ToList();
         }
 
     }

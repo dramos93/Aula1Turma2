@@ -15,7 +15,7 @@ namespace WebApImc.Controllers
         {
             new ObjectImc() { Nome = "Felipe"},
             new ObjectImc() { Nome = "Cliber"},
-            new ObjectImc() { Nome = "iomar"},
+            new ObjectImc() { Nome= "iomar"}
 
         };
         public List<ObjectImc> Get()
