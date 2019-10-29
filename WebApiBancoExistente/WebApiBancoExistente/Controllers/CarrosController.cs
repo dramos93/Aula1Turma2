@@ -16,6 +16,29 @@ namespace WebApiBancoExistente.Controllers
     {
         private Carroes db = new Carroes();
 
+        [HttpGet]
+        [Route("Api/Carroes/CustomQuery")]
+        public object CustomCarroQuery()
+        {
+            var listaDeCarros = db.Carros.ToList();
+
+            var retornoCarros = from carros in listaDeCarros select new {NomeCarro = carros.Modelo, CarrosId = carros.Id };
+
+            return retornoCarros;
+        }
+
+        [HttpGet]
+        [Route("Api/Carroes/CarrosComMarcas")]
+        public object customCarrosOnMarcas()
+        {
+            var listaCarros = db.Carros.ToList();
+            var listaMarcas = db.Marcas.ToList();
+            var conteudoRetorno = from mar in listaMarcas join car in listaCarros on mar.Id equals car.Marca select new { CarroId = car.Id, CarroNome = car.Modelo, MarcaId = mar.Id, MarcaNome = mar.Nome };
+
+            return conteudoRetorno;
+            
+        }
+
         // GET: api/Carros
         public IQueryable<Carros> GetCarros()
         {
