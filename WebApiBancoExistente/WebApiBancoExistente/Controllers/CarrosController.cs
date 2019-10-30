@@ -85,21 +85,7 @@ namespace WebApiBancoExistente.Controllers
             return CreatedAtRoute("DefaultApi", new { id = carros.Id }, carros);
         }
 
-        // DELETE: api/Carros/5
-        [ResponseType(typeof(Carros))]
-        public IHttpActionResult DeleteCarros(int id)
-        {
-            Carros carros = db.Carros.Find(id);
-            if (carros == null)
-            {
-                return NotFound();
-            }
-
-            db.Carros.Remove(carros);
-            db.SaveChanges();
-
-            return Ok(carros);
-        }
+        
 
         protected override void Dispose(bool disposing)
         {
