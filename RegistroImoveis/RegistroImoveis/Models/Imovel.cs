@@ -16,6 +16,7 @@ namespace RegistroImoveis.Models
         public string Municipio { get; set; }
         public string Numero { get; set; }
         public string Complemento { get; set; }
-        public string Proprietario { get; set; }
+        public int Proprietario { get; set; }
+        public decimal ValorDoImovel { get; set; }
     }
 }

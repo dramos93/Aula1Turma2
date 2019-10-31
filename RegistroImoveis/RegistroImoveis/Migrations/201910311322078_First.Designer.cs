@@ -13,7 +13,7 @@ namespace RegistroImoveis.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201910301857090_First"; }
+            get { return "201910311322078_First"; }
         }
         
         string IMigrationMetadata.Source

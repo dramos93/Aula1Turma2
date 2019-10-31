@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -168,11 +169,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201910301857090_First.cs" />
-    <Compile Include="Migrations\201910301857090_First.Designer.cs">
-      <DependentUpon>201910301857090_First.cs</DependentUpon>
+    <Compile Include="Migrations\201910311322078_First.cs" />
+    <Compile Include="Migrations\201910311322078_First.Designer.cs">
+      <DependentUpon>201910311322078_First.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910311326378_ChangeProprietarioTypeAndValorImovelAdded.cs" />
+    <Compile Include="Migrations\201910311326378_ChangeProprietarioTypeAndValorImovelAdded.Designer.cs">
+      <DependentUpon>201910311326378_ChangeProprietarioTypeAndValorImovelAdded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\CustomValidator.cs" />
     <Compile Include="Models\Imovel.cs" />
     <Compile Include="Models\MigrationsContext.cs" />
     <Compile Include="Models\Proprietarios.cs" />
@@ -262,8 +268,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201910301857090_First.resx">
-      <DependentUpon>201910301857090_First.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201910311322078_First.resx">
+      <DependentUpon>201910311322078_First.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910311326378_ChangeProprietarioTypeAndValorImovelAdded.resx">
+      <DependentUpon>201910311326378_ChangeProprietarioTypeAndValorImovelAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
