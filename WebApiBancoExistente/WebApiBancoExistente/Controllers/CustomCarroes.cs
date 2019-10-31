@@ -34,6 +34,9 @@ namespace WebApiBancoExistente.Controllers
         {
             var listaCarros = db.Carros.ToList();
             var listaUsuarios = db.Usuarios.ToList();
+
+
+
             var conteudoRetorno = from Usu in listaUsuarios
                                   join car in listaCarros on Usu.Id
                                   equals car.Marca
