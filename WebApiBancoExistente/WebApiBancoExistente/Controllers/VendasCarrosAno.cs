@@ -48,12 +48,11 @@ namespace WebApiBancoExistente.Controllers
                                 join car in listaCarros on ven.Carro equals car.Id
                                 join mar in listaMarcas on car.Marca equals mar.Id
                                 where ven.DatInc.Year == ano
-                                group ven by ven.Quantidade.Equals into teste
+                                group ven by ven.Carros.Marcas into GroupBy
                                 select new 
                                 {    
-                                    Marca = mar.Nome, 
-                                    Quantidade = teste.Sum(), 
-                                    DataInc = ven.DatInc 
+                                    Marcas = GroupBy.Key.Nome,
+                                    Quantidade = GroupBy.Sum(x => x.Quantidade)
                                 };
             return retornoCarros;
 
